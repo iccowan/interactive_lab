@@ -1,5 +1,30 @@
+body {
+    margin-left: 30px;
+    margin-right: 30px;
+    font-family: sans-serif;
+    background-color: aqua;
+}
+
 img {
     width: 300px;
     display: inline;
     margin: 30px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+.replay {
+    background-color: red;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    width: 400px;
+    text-align: center;
+}
+
+.replay:hover {
+    cursor: pointer;
 }
