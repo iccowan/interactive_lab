@@ -11,7 +11,7 @@ img {
     margin: 30px;
 }
 
-img:hover {
+img:not([state=open]):hover {
     cursor: pointer;
 }
 
